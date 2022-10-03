@@ -1,0 +1,15 @@
+prefix=/mingw32
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+host=i686-w64-mingw32
+mtcflags=
+mtlibs=
+
+Name: gpg-error
+Description: GPG Runtime
+Version: 1.39-unknown
+Cflags: -I${prefix}/include
+Libs: -L${exec_prefix}/lib -lgpg-error
+Libs.private: -lws2_32 /mingw32/lib/libintl.dll.a -L/mingw32/lib /mingw32/lib/libiconv.dll.a -L/mingw32/lib
+URL: https://www.gnupg.org/software/libgpg-error/index.html

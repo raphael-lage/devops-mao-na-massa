@@ -1,0 +1,12 @@
+%FILES%
+mingw32/
+mingw32/bin/
+mingw32/bin/win7appid.exe
+mingw32/share/
+mingw32/share/licenses/
+mingw32/share/licenses/win7appid/
+mingw32/share/licenses/win7appid/LICENSE.txt
+mingw32/share/man/
+mingw32/share/man/man1/
+mingw32/share/man/man1/win7appid.1.gz
+
